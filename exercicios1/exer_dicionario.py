@@ -135,3 +135,50 @@ pessoas[12]['estado'] = 'SP'
 print("Lista atualizada com o estado de cada pessoa:")
 for pessoa in pessoas:
     print(f"Nome: {pessoa.get('nome')}, Idade: {pessoa.get('idade')} anos, Cidade: {pessoa.get('cidade')}, Sexo: {pessoa.get('sexo')}, Estado: {pessoa.get('estado')}")
+##Elena, Idade: 35 anos, Cidade: Porto Alegre, Sexo: Feminino, Estado: SP
+
+#trocar estado da Elena para RS usando o metodo get para atualizar a chave estado
+for pessoa in pessoas:
+    if pessoa['nome'] == 'Elena':
+        pessoa['estado'] = 'RS'
+        print(f"O estado de {pessoa['nome']} foi atualizado para: {pessoa['estado']}")
+""""      
+print("Lista atualizada com o estado de cada pessoa:")
+for pessoa in pessoas:
+    print(f"Nome: {pessoa.get('nome')}, Idade: {pessoa.get('idade')} anos, Cidade: {pessoa.get('cidade')}, Sexo: {pessoa.get('sexo')}, Estado: {pessoa.get('estado')}")
+    
+"""
+    
+#Heloisa, Idade: 32 anos, Cidade: S�o Paulo, Sexo: Feminino, Estado: BA
+
+for pessoa in pessoas:
+    if pessoa['nome'] == 'Heloisa':
+        pessoa['estado'] = 'SP'
+        print(f"O estado de {pessoa['nome']} foi atualizado para: {pessoa['estado']}")
+
+"""
+print("Lista atualizada com o estado de cada pessoa:")
+for pessoa in pessoas:
+    print(f"Nome: {pessoa.get('nome')}, Idade: {pessoa.get('idade')} anos, Cidade: {pessoa.get('cidade')}, Sexo: {pessoa.get('sexo')}, Estado: {pessoa.get('estado')})")
+    
+"""
+    
+#Jo�o, Idade: 31 anos, Cidade: Salvador, Sexo: Masculino, Estado: RS)
+
+for pessoa in pessoas:
+    if pessoa['nome'] == 'João':
+        pessoa['estado'] = 'SP'
+        print(f"O estado de {pessoa['nome']} foi atualizado para: {pessoa['estado']}")
+
+print("Lista atualizada com o estado de cada pessoa:")
+for pessoa in pessoas:
+    print(f"Nome: {pessoa.get('nome')}, Idade: {pessoa.get('idade')} anos, Cidade: {pessoa.get('cidade')}, Sexo: {pessoa.get('sexo')}, Estado: {pessoa.get('estado')})")
+    
+##pessoas que moram em Indaiatuba nome, idade, cidade, sexo e estado
+print("Pessoas que moram em Indaiatuba:"    )
+for pessoa in pessoas:
+    if pessoa['cidade'] == 'Indaiatuba':
+        ###usando o metodo get para acessar as chaves do dicionário
+        print(f"Nome: {pessoa.get('nome')}, Idade: {pessoa.get('idade')} anos, Cidade: {pessoa.get('cidade')}, Sexo: {pessoa.get('sexo')}, Estado: {pessoa.get('estado')})")
+        
+###atualizar o repositorio no github
